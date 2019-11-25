@@ -3,6 +3,7 @@ import os, gzip
 import numpy as np
 import pandas as pd
 import itertools
+from functools import reduce
 from ypy import memo, fs
 
 
